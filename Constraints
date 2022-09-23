@@ -173,7 +173,7 @@
 # User LEDs - Bank 33
 # ---------------------------------------------------------------------------- 
 set_property  PACKAGE_PIN T22 [get_ports {LD0}];  # "LD0"
-set_property PACKAGE_PIN T21 [get_ports {LD1}];  # "LD1"
+#set_property PACKAGE_PIN T21 [get_ports {LD1}];  # "LD1"
 #set_property PACKAGE_PIN U22 [get_ports {LD2}];  # "LD2"
 #set_property PACKAGE_PIN U21 [get_ports {LD3}];  # "LD3"
 #set_property PACKAGE_PIN V22 [get_ports {LD4}];  # "LD4"
@@ -373,35 +373,35 @@ set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 35]];
 
 # Note that the bank voltage for IO Bank 13 is fixed to 3.3V on ZedBoard. 
 set_property IOSTANDARD LVCMOS33 [get_ports -of_objects [get_iobanks 13]];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_0/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_1/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_2/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_3/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_4/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_5/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_6/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_7/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_8/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_9/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_10/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_11/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_12/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_13/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_14/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_15/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_16/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_17/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_18/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_19/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_20/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_21/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_22/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_23/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_24/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_25/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_26/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_27/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_28/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_29/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_30/z4];
-set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_31/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_0/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_1/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_2/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_3/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_4/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_5/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_6/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_7/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_8/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_9/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_10/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_11/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_12/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_13/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_14/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_15/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_16/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_17/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_18/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_19/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_20/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_21/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_22/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_23/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_24/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_25/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_26/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_27/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_28/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_29/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_30/z4];
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets TRNG_Design_Block_i/TRNG_Module_0/inst/pdl_31/z4];
