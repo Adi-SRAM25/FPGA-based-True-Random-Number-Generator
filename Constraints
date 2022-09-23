@@ -405,9 +405,3 @@ set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_28/z4];
 set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_29/z4];
 set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_30/z4];
 set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets pdl_31/z4];
-
-set_property IOSTANDARD LVCMOS33 [get_ports clk];
-set_property IOSTANDARD LVCMOS33 [get_ports rand_num];
-set_property IOSTANDARD LVCMOS33 [get_ports en];
-set_property IOSTANDARD LVCMOS33 [get_ports clr];
-set_property SEVERITY {Warning} [get_nets pdl_0/z4];
